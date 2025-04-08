@@ -2,10 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("C:/Users/varsh/Downloads/PROJECTS/MAJOR/cleaned_train.csv")  # replace with the actual path to your dataset
+df = pd.read_csv("cleaned_train.csv")
 ethnicity_list = [
     "Asian", "Black", "Hispanic", "Latino", "Middle Eastern", "Pasifika", "South Asian",
     "Turkish", "White-European"
@@ -152,7 +151,7 @@ st.markdown("""<div class="pink-box"><h1>Take Your Quick Assessment Now</h1></di
 col1, col2 = st.columns([1, 2])  # Adjust ratios as needed
 
 with col1:
-   st.image("C:/Users/varsh/Downloads/PROJECTS/MAJOR/wired-lineal-656-person-sign-protest-hover-pinch.gif") 
+   st.image("wired-lineal-656-person-sign-protest-hover-pinch.gif") 
 
 with col2:
     st.markdown("""
