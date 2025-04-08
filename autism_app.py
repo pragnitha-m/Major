@@ -1,9 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-pip install joblib
 import joblib
-import pandas as pd
 
 # Load the dataset
 df = pd.read_csv("cleaned_train.csv")  # replace with the actual path to your dataset
